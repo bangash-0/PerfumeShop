@@ -1,11 +1,25 @@
+:root{
+    --color-primary: #842ecb;
+    --border-radius: 1rem;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 10px;
+}
+
+
 
 .navBar{
-    background-color: #9367B5;
+    background-color: var(--color-primary);
     color: white;
-    border-radius: 10rem;
+    border-radius: var(--border-radius);
     font-size: 18px;
     align-items: center;
-
 }
 
 .navBar ul{
@@ -19,8 +33,8 @@
 }
 
 .left-side, .right-side{
-    background-color: #9367B5;
-    border-radius: 20px;
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius);
     margin-top: 5px;
     color: white;
 }
@@ -39,7 +53,31 @@ h5{
 }
 
 h4, h5{
-    margin-left: 14px;
+    /*margin-left: 14px;*/
+}
+
+.filters, .categories{
+    text-align: center;
+}
+
+.navBar a{
+    color: #dbf3f5;
+    text-decoration: none;
+}
+
+.right-side a, .left-side a{
+    color: #eedede;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.right-side a:hover, .left-side a:hover{
+    color: white;
+}
+
+li{
+    list-style: none;
+    font-size: 2rem;
 }
 
 .perfume-image{
@@ -48,16 +86,19 @@ h4, h5{
 }
 
 .footer {
-    background-color: #9367B5;
+    background-color: var(--color-primary);
     color: white;
-    border-radius: 10rem;
+    border-radius: var(--border-radius);
     margin-top: 5px;
     align-items: center;
 }
+
 .footer h3{
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.col-12
 
 
